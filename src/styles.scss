@@ -1,0 +1,38 @@
+@import '~bootstrap/scss/bootstrap';
+body {
+  background-image: url(assets/29373002.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family: monospace;
+  color: rgb(80, 77, 77);
+    text-align: center;
+    font-weight: lighter;
+}
+ .actionBtn {
+   color: rgb(85, 83, 83);
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgb(233, 114, 114);
+    border-radius: 13ch;
+   
+  }
+  .divider{
+    width:35px;
+    height:auto;
+    display:inline-block;
+}
+  .snapshot {
+    text-align: center;
+    img {
+      max-width: 800px;
+      max-height: 800px;
+      border-radius: 13ch;
+      
+    }
+  }
+  
+  
+
+
